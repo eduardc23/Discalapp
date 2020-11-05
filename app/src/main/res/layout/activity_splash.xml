@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    tools:context=".activities.Splash">
+
+    <ImageView
+        android:id="@+id/imageViewSplashtitle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="2"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageViewSplash"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewSplashtitle"
+        app:layout_constraintVertical_bias="0.199"
+        app:srcCompat="@drawable/pensar"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+</androidx.constraintlayout.widget.ConstraintLayout>

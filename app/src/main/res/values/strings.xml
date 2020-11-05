@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Discalapp</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Nombre de usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="redirectRegister">"¿No tienes una cuenta? <b>Registrate</b> "</string>
+    <string name="have_account">"¿Ya tienes una cuenta? <b>Iniciar sesión</b> "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
